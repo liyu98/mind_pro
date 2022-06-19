@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-mindpro.hk	TRUE	/	FALSE	1999999999	_icl_current_language	zh-hant
-
