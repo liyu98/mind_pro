@@ -1,0 +1,56 @@
+.yarpp-thumbnails-horizontal .yarpp-thumbnail, .yarpp-thumbnail-default, .yarpp-thumbnail-title {
+	display: inline-block;
+	*display: inline;
+}
+.yarpp-thumbnails-horizontal .yarpp-thumbnail {
+	 
+    /* border: 1px solid rgba(0,255,0,0.3);*/
+    width: 280px;
+    
+    margin: 5px;
+    vertical-align: top;
+	margin-left: 10px;
+    margin-bottom:20px;
+	vertical-align: top;
+}
+.yarpp-thumbnail > img, .yarpp-thumbnail-default {
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+}
+.yarpp-thumbnails-horizontal .yarpp-thumbnail > img, .yarpp-thumbnails-horizontal .yarpp-thumbnail-default {
+	display: block;
+    float:left;
+}
+.yarpp-thumbnails-horizontal .yarpp-thumbnail-title {
+    font-size: 1em;
+    max-height: 2.8em;
+    line-height: 1.4em;
+    margin: 7px;
+    margin-top: 17px;
+    width: 190px;
+    text-decoration: none;
+    overflow: hidden;
+    color: #8d9095;
+}
+
+.yarpp-thumbnails-horizontal a:hover {
+    color: #c01d2e;
+}
+
+.yarpp-thumbnail-title a:hover{
+    color: #c01d2e;
+}
+
+.yarpp-thumbnail-default {
+	overflow: hidden;
+}
+.yarpp-thumbnail-default > img {
+	min-height: 60px;
+	min-width: 60px;
+}
