@@ -3491,6 +3491,7 @@ All this is done for any sub-level being entered.
 					margin-bottom: 0;
 				}
 /* Portfolio: end */
+
 /* !Masonry */
 .iso-item,
 .portfolio-grid .wf-cell,
@@ -6094,9 +6095,14 @@ ul.royalSlider {
 
 /* Team:end */
 /* !- Blog posts */
-
+.blog-content a{
+	white-space:normal;
+}
 .blog-content.wf-td{
 	width:100%;
+}
+.blog-content.wf-td a{
+	white-space:normal;
 }
 
 .blog-content.wf-td,
